@@ -178,6 +178,7 @@ hr {
 
 @media (min-width: 600px) {
   body {
+    background-image: url("./assets/images/background-pattern-desktop.svg");
     font-size: var(--fs-300);
   }
 
