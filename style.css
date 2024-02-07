@@ -88,4 +88,6 @@ body {
   font-weight: var(--fw-regular);
   font-size: var(--fs-100);
   line-height: 1.5;
+
+  min-height: 100svh;
 }
