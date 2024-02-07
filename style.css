@@ -116,6 +116,10 @@ body {
   padding: var(--content-padding);
 }
 
+.star-icon {
+  order: -1;
+}
+
 .question-list {
   padding: 0;
   list-style: none;
