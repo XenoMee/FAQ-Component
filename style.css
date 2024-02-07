@@ -99,3 +99,8 @@ body {
   font-size: var(--fs-800);
   font-weight: var(--fw-dark);
 }
+
+/* Utility classes */
+.heading-color {
+  color: var(--clr-primary-800);
+}
