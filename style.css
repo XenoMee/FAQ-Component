@@ -145,6 +145,10 @@ body {
   fill: var(--clr-icon-500);
 }
 
+hr {
+  margin: 1.2rem 0rem;
+}
+
 /* Utility classes */
 .heading-color {
   color: var(--clr-primary-800);
