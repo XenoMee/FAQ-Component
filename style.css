@@ -109,6 +109,11 @@ body {
   font-weight: var(--fw-bold);
 }
 
+.question-title:is(:hover, ::after) {
+  background-color: var(--clr-accent-500);
+  cursor: pointer;
+}
+
 /* Layout */
 .faq-card {
   --content-padding: 1.5rem;
