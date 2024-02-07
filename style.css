@@ -114,6 +114,10 @@ body {
   padding: var(--content-padding);
 }
 
+.btn {
+  border: none;
+}
+
 /* Utility classes */
 .heading-color {
   color: var(--clr-primary-800);
