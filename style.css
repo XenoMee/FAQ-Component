@@ -135,6 +135,7 @@ body {
   border-radius: 50%;
   padding: 0;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .icon-btn {
