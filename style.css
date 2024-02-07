@@ -120,6 +120,7 @@ body {
   border: none;
   border-radius: 50%;
   padding: 0;
+  flex-shrink: 0;
 }
 
 /* Utility classes */
