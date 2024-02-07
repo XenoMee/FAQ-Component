@@ -118,3 +118,7 @@ body {
 .heading-color {
   color: var(--clr-primary-800);
 }
+
+.flex-group {
+  display: flex;
+}
