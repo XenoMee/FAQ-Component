@@ -100,6 +100,11 @@ body {
   font-weight: var(--fw-dark);
 }
 
+.question-title {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-bold);
+}
+
 /* Utility classes */
 .heading-color {
   color: var(--clr-primary-800);
