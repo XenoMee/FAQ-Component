@@ -110,7 +110,7 @@ body {
 }
 
 .question-title:is(:hover, ::after) {
-  background-color: var(--clr-accent-500);
+  color: var(--clr-accent-500);
   cursor: pointer;
 }
 
