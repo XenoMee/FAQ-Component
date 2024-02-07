@@ -168,11 +168,15 @@ hr {
 }
 
 @media (min-width: 600px) {
+  body {
+    font-size: var(--fs-300);
+  }
+
   .card-title {
-    font-size: 3.5rem;
+    font-size: var(--fs-900);
   }
 
   .question-title {
-    font-size: 1.125rem;
+    font-size: var(--fs-400);
   }
 }
