@@ -118,6 +118,7 @@ body {
 
 .star-icon {
   order: -1;
+  fill: var(--clr-icon-500);
 }
 
 .question-list {
