@@ -178,7 +178,7 @@ hr {
   gap: 1.5rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 42em) {
   body {
     background-image: url("./assets/images/background-pattern-desktop.svg");
     font-size: var(--fs-300);
