@@ -30,6 +30,9 @@
   --fs-700: 1.75rem;
   --fs-800: 2rem;
   --fs-900: 2.25rem;
+
+  /* Padding */
+  --content-padding: 1.5rem;
 }
 
 /*
@@ -108,11 +111,8 @@ body {
 
 /* Layout */
 .faq-card {
-  --content-padding: 1.5rem;
-
   max-width: 37.5rem;
   background-color: var(--clr-primary-100);
-  padding: var(--content-padding);
 }
 
 .btn {
