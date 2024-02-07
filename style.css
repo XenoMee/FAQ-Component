@@ -165,3 +165,8 @@ hr {
 .justify-between {
   justify-content: space-between;
 }
+
+.grid-flow {
+  display: grid;
+  gap: 1.5rem;
+}
