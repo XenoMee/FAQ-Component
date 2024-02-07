@@ -23,12 +23,8 @@
 
   /* Font size */
   --fs-100: 0.875rem;
-  --fs-200: 0.9375rem;
   --fs-300: 1rem;
   --fs-400: 1.125rem;
-  --fs-500: 1.25rem;
-  --fs-600: 1.5rem;
-  --fs-700: 1.75rem;
   --fs-800: 2rem;
   --fs-900: 2.25rem;
 }
@@ -169,4 +165,14 @@ hr {
 .grid-flow {
   display: grid;
   gap: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .card-title {
+    font-size: 3.5rem;
+  }
+
+  .question-title {
+    font-size: 1.125rem;
+  }
 }
