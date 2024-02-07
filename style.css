@@ -81,6 +81,12 @@ h6 {
   overflow-wrap: break-word;
 }
 
+/* Reduce line-height on large text */
+h1,
+h2 {
+  line-height: 1.2;
+}
+
 /* General/Generic */
 body {
   background-color: var(--clr-primary-200);
