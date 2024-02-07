@@ -84,4 +84,7 @@ h6 {
 body {
   background-color: var(--clr-primary-200);
   color: var(--clr-primary-500);
+  font-family: var(--font-family-body);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-100);
 }
