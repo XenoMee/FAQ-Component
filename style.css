@@ -79,3 +79,9 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* General/Generic */
+body {
+  background-color: var(--clr-primary-200);
+  color: var(--clr-primary-500);
+}
