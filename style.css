@@ -123,3 +123,7 @@ body {
   display: flex;
   gap: 1.5rem;
 }
+
+.justify-between {
+  justify-content: space-between;
+}
