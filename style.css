@@ -124,6 +124,7 @@ body {
   max-width: 37.5rem;
   background-color: var(--clr-primary-100);
   padding: var(--content-padding);
+  border-radius: 0.8rem;
 }
 
 .star-icon {
