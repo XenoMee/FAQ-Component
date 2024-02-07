@@ -14,4 +14,9 @@
 
   /* Font family */
   --font-family-body: "WorkSans";
+
+  /* Font weight */
+  --fw-regular: 500;
+  --fw-bold: 600;
+  --fw-dark: 700;
 }
