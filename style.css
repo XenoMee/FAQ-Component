@@ -180,6 +180,10 @@ hr {
     font-size: var(--fs-900);
   }
 
+  .star-icon {
+    width: 2.5rem;
+  }
+
   .question-title {
     font-size: var(--fs-400);
   }
