@@ -147,6 +147,7 @@ body {
 
 hr {
   margin: 1.2rem 0rem;
+  border-color: var(--clr-primary-200);
 }
 
 /* Utility classes */
