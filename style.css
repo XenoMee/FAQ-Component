@@ -129,6 +129,10 @@ body {
   flex-shrink: 0;
 }
 
+.icon-btn {
+  fill: var(--clr-icon-500);
+}
+
 /* Utility classes */
 .heading-color {
   color: var(--clr-primary-800);
