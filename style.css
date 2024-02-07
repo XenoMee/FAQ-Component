@@ -110,6 +110,7 @@ body {
 .faq-card {
   --content-padding: 1.5rem;
 
+  max-width: 37.5rem;
   background-color: var(--clr-primary-100);
   padding: var(--content-padding);
 }
