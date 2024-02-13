@@ -178,6 +178,10 @@ hr {
   gap: 1.5rem;
 }
 
+.no-display {
+  display: none;
+}
+
 @media (min-width: 43em) {
   body {
     background-image: url("./assets/images/background-pattern-desktop.svg");
