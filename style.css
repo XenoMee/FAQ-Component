@@ -179,6 +179,10 @@ hr {
   gap: 1.5rem;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .collapse {
   display: none;
 }
