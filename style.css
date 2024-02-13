@@ -138,6 +138,7 @@ body {
   text-align: start;
   background-color: transparent;
   border: none;
+  padding: 0;
   font-size: var(--fs-300);
 }
 
@@ -156,11 +157,6 @@ hr {
   border-color: var(--clr-primary-200);
   opacity: 0.2;
 }
-
-.accordion-body {
-  padding: 1rem 1.25rem;
-}
-
 /* Utility classes */
 .heading-color {
   color: var(--clr-primary-800);
