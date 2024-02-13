@@ -185,6 +185,7 @@ hr {
   display: none;
   overflow: hidden;
   max-height: 0;
+  transition: max-height 250ms ease-in-out;
 }
 
 @media (min-width: 43em) {
