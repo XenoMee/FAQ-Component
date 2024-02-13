@@ -1,23 +1,11 @@
 const expandButtons = document.querySelectorAll(".btn");
-const textElements = document.querySelectorAll(".no-display");
+const questionAnswerEl = document.querySelectorAll("");
 let isOpen = false;
 let isClose = true;
 
 for(let i = 0; i < expandButtons.length; i++){
     expandButtons[i].addEventListener("click", function(){
-        for(let j = 0; j < textElements.length; j++){
-            
-            if(isClose){
-                textElements[j].classList.remove("no-display");
-                isOpen = true;
-                isClose = false;
-            }
-            else {
-                textElements[j].classList.add("no-display");
-                isOpen = false;
-                isClose = true;
-            }
-        }
+        this.classList.toggle('open');
     })
 }
 
@@ -49,4 +37,4 @@ for(let i = 0; i < expandButtons.length; i++){
 //     }
 // }
 // TODO: Add event listener on button to listen for click events
-// TODO: Expand the question item paragraph
+// TODO: Expand the question item 

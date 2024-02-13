@@ -188,6 +188,10 @@ hr {
   transition: max-height 250ms ease-in-out;
 }
 
+.open {
+  display: block;
+}
+
 @media (min-width: 43em) {
   body {
     background-image: url("./assets/images/background-pattern-desktop.svg");
