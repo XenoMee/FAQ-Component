@@ -150,6 +150,7 @@ body {
 
 .button__icon {
   fill: var(--clr-accent-500);
+  flex-shrink: 0;
 }
 
 hr {
