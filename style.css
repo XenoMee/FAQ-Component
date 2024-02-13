@@ -135,6 +135,10 @@ body {
 }
 
 .btn {
+  text-align: start;
+  background-color: transparent;
+  border: none;
+  font-size: var(--fs-300);
 }
 
 .btn:is(:hover, ::after) {
@@ -203,7 +207,7 @@ hr {
     width: 2.5rem;
   }
 
-  .question-header {
+  .btn {
     font-size: var(--fs-400);
   }
 }
