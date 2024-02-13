@@ -112,11 +112,6 @@ body {
   font-weight: var(--fw-bold);
 }
 
-.question-title:is(:hover, ::after) {
-  color: var(--clr-accent-500);
-  cursor: pointer;
-}
-
 /* Layout */
 .faq-card {
   --content-padding: 1.5rem;
@@ -145,6 +140,11 @@ body {
   border-radius: 50%;
   padding: 0;
   flex-shrink: 0;
+  cursor: pointer;
+}
+
+.btn:is(:hover, ::after) {
+  color: var(--clr-accent-500);
   cursor: pointer;
 }
 
