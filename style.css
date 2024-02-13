@@ -148,7 +148,7 @@ body {
   cursor: pointer;
 }
 
-.icon-btn {
+.button__icon {
   fill: var(--clr-accent-500);
 }
 
