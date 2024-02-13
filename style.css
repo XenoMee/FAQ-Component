@@ -183,6 +183,7 @@ hr {
 
 .collapse {
   display: none;
+  overflow: hidden;
 }
 
 @media (min-width: 43em) {
