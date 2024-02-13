@@ -107,7 +107,7 @@ body {
   font-weight: var(--fw-dark);
 }
 
-.question-title {
+.question-header {
   font-size: var(--fs-300);
   font-weight: var(--fw-bold);
 }
@@ -135,12 +135,6 @@ body {
 }
 
 .btn {
-  background-color: transparent;
-  border: none;
-  border-radius: 50%;
-  padding: 0;
-  flex-shrink: 0;
-  cursor: pointer;
 }
 
 .btn:is(:hover, ::after) {
@@ -205,7 +199,7 @@ hr {
     width: 2.5rem;
   }
 
-  .question-title {
+  .question-header {
     font-size: var(--fs-400);
   }
 }
