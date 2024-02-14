@@ -105,6 +105,7 @@ body {
 .card-title {
   font-size: var(--fs-800);
   font-weight: var(--fw-dark);
+  color: var(--clr-primary-800);
 }
 
 .question-header {
