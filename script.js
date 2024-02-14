@@ -5,7 +5,7 @@ for(let i = 0; i < accordionButtons.length; i++){
     accordionButtons[i].addEventListener("click", function(){
         if(accordionButtons[i].getAttribute("aria-expanded") === "false"){
             accordionButtons[i].setAttribute("aria-expanded", true);
-            // accordionButtons[i].children[1].style.display = "none";
+            accordionButtons[i].children[1].style.display = "none";
             // accordionContent[i].setAttribute("aria-hidden", false);
         }
 //         else{
