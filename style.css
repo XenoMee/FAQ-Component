@@ -145,6 +145,7 @@ body {
 
 .heading-color {
   color: var(--clr-primary-800);
+  transition: color 350ms ease-in-out;
 }
 
 .heading-color:is(:hover, ::after) {
