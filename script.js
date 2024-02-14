@@ -6,7 +6,7 @@ for(let i = 0; i < accordionButtons.length; i++){
         if(accordionButtons[i].getAttribute("aria-expanded") === "false"){
             accordionButtons[i].setAttribute("aria-expanded", true);
             accordionButtons[i].children[1].style.display = "none";
-            // accordionContent[i].setAttribute("aria-hidden", false);
+            accordionContent[i].setAttribute("aria-hidden", false);
         }
 //         else{
 //             accordionButtons[i].setAttribute("aria-expanded", false);
