@@ -168,7 +168,6 @@ body {
 }
 
 hr {
-  margin: 1.2rem 0rem;
   border-color: var(--clr-primary-200);
   opacity: 0.2;
 }
