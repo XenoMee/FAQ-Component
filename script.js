@@ -8,10 +8,10 @@ for(let i = 0; i < accordionButtons.length; i++){
             accordionButtons[i].children[1].style.display = "none";
             accordionContent[i].setAttribute("aria-hidden", false);
         }
-//         else{
-//             accordionButtons[i].setAttribute("aria-expanded", false);
-//             accordionContent[i].setAttribute("aria-hidden", true);
-//             accordionButtons[i].children[1].style.display = "block";
-//         }
+        else{
+            accordionButtons[i].setAttribute("aria-expanded", false);
+            accordionContent[i].setAttribute("aria-hidden", true);
+            accordionButtons[i].children[1].style.display = "block";
+        }
     });
 }
