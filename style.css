@@ -128,6 +128,7 @@ body {
   order: -1;
   fill: var(--clr-accent-500);
   width: 1.5rem;
+  aspect-ratio: 1 / 1;
 }
 
 .accordion {
@@ -146,16 +147,24 @@ body {
 
 .heading-color {
   color: var(--clr-primary-800);
-  transition: color 350ms ease-in-out;
+  transition: color 250ms ease-in-out;
 }
 
 .heading-color:is(:hover, ::after) {
   color: var(--clr-accent-500);
 }
 
+.accordion-plus-icon,
+.accordion-minus-icon {
+  flex-shrink: 0;
+}
+
 .accordion-plus-icon {
   fill: var(--clr-accent-500);
-  flex-shrink: 0;
+}
+
+.accordion-minus-icon {
+  fill: var(--clr-primary-800);
 }
 
 hr {
