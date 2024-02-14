@@ -145,12 +145,11 @@ body {
   cursor: pointer;
 }
 
-.heading-color {
-  color: var(--clr-primary-800);
+.question-title {
   transition: color 250ms ease-in-out;
 }
 
-.heading-color:is(:hover, ::after) {
+.question-title:is(:hover, ::after) {
   color: var(--clr-accent-500);
 }
 
@@ -195,6 +194,10 @@ hr {
 .collapse {
   display: none;
 }
+
+/* .heading-color {
+  color: var(--clr-primary-800);
+} */
 
 @media (min-width: 43em) {
   body {
