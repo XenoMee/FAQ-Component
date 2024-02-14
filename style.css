@@ -188,9 +188,6 @@ hr {
   transition: max-height 250ms ease-in-out; */
 }
 
-.collapsing {
-}
-
 .open {
   display: block;
 }
