@@ -135,13 +135,9 @@ body {
   list-style: none;
 }
 
-.accordion-trigger {
-  text-align: start;
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  font-size: var(--fs-300);
-  cursor: pointer;
+.accordion-question {
+  overflow: hidden;
+  /* height: 2.5rem; */
 }
 
 .question-title {
@@ -150,6 +146,15 @@ body {
 
 .question-title:is(:hover, ::after) {
   color: var(--clr-accent-500);
+}
+
+.accordion-trigger {
+  text-align: start;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: var(--fs-300);
+  cursor: pointer;
 }
 
 .accordion-plus-icon,
