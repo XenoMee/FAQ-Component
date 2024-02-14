@@ -195,9 +195,9 @@ hr {
   display: none;
 }
 
-/* .heading-color {
+.heading-color {
   color: var(--clr-primary-800);
-} */
+}
 
 @media (min-width: 43em) {
   body {
