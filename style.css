@@ -137,7 +137,11 @@ body {
 
 .accordion-question {
   overflow: hidden;
-  /* height: 2.5rem; */
+}
+
+.accordion-question:has([aria-expanded="false"]) .accordion-content,
+.accordion-question:has([aria-expanded="false"]) .accordion-minus-icon {
+  display: none;
 }
 
 .question-title {
@@ -193,10 +197,6 @@ hr {
 
 .full-width {
   width: 100%;
-}
-
-.collapse {
-  display: none;
 }
 
 .heading-color {
