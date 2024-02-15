@@ -20,7 +20,7 @@ for(let i = 0; i < accordionButtons.length; i++){
             accordionButtons[i].children[1].style.display = "block";
             // Accordion Content
             accordionContent[i].setAttribute("aria-hidden", true);
-            // accordionContent[i].style.height = "0";
+            accordionContent[i].style.height = "0";
         }
     });
 }
