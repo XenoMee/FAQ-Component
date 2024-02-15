@@ -136,8 +136,14 @@ body {
 }
 
 .accordion-question {
+  display: grid;
+  grid-template-rows: min-content 0fr;
   overflow: hidden;
-  transition: max-height 350ms ease-in;
+  transition: grid-template-rows 500ms ease;
+}
+
+.accordion-question:has([aria-hidden="false"]) {
+  grid-template-rows: min-content 1fr;
 }
 
 .accordion-question:has([aria-expanded="false"]) .accordion-minus-icon {

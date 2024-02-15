@@ -6,7 +6,6 @@ const accordionQuestionItem = document.querySelectorAll(".accordion-question");
 for(let i = 0; i < accordionButtons.length; i++){
     accordionButtons[i].addEventListener("click", function(){
         if(accordionButtons[i].getAttribute("aria-expanded") === "false"){
-            accordionQuestionItem[i].style.maxheight = "5rem";
             // Accordion buttons
             accordionButtons[i].setAttribute("aria-expanded", true);
             accordionButtons[i].children[1].style.display = "none";
