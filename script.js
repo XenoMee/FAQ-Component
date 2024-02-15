@@ -14,13 +14,16 @@ for(let i = 0; i < accordionButtons.length; i++){
             accordionContent[i].style.height = "100%";
         }
         else{
-            accordionQuestionItem[i].classList.remove("grid-flow");
+            
             // Accordion Buttons
             accordionButtons[i].setAttribute("aria-expanded", false);
             accordionButtons[i].children[1].style.display = "block";
             // Accordion Content
             accordionContent[i].setAttribute("aria-hidden", true);
-            accordionContent[i].style.height = "0";
+            setTimeout(() => {
+                accordionQuestionItem[i].classList.remove("grid-flow");
+            }, 460);
+            accordionContent[i].style.height = "";
         }
     });
 }
