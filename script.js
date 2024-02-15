@@ -1,6 +1,6 @@
 const accordionButtons = document.querySelectorAll(".accordion-trigger");
 const accordionContent = document.querySelectorAll(".accordion-content");
-// const accordionQuestionItem = document.querySelectorAll(".accordion-question");
+const accordionQuestionItem = document.querySelectorAll(".accordion-question");
 
 for(let i = 0; i < accordionButtons.length; i++){
     accordionButtons[i].addEventListener("click", function(){
