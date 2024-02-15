@@ -94,7 +94,7 @@ body {
   font-weight: var(--fw-regular);
   font-size: var(--fs-100);
   line-height: 1.5;
-  padding: 0rem 1.5rem;
+  padding: 1.5rem;
 
   min-height: 100svh;
   display: grid;
