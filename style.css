@@ -137,7 +137,7 @@ body {
 
 .accordion-question {
   overflow: hidden;
-  transition: max-height 500ms ease-in-out;
+  transition: max-height 350ms ease-in;
 }
 
 .accordion-question:has([aria-expanded="false"]) .accordion-minus-icon {
@@ -180,7 +180,7 @@ body {
   transition: height 500ms ease;
 }
 .accordion-content > p {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 hr {

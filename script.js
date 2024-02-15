@@ -12,7 +12,7 @@ for(let i = 0; i < accordionButtons.length; i++){
             accordionButtons[i].children[1].style.display = "none";
             // Accordion Content
             accordionContent[i].setAttribute("aria-hidden", false);
-            accordionContent[i].style.height = "7.5rem";
+            accordionContent[i].style.height = "100%";
         }
         else{
             
