@@ -130,11 +130,20 @@ body {
   aspect-ratio: 1 / 1;
 }
 
+.accordion {
+  padding: 0;
+  list-style: none;
+}
+
 .accordion-question {
   display: grid;
   grid-template-rows: min-content 0fr;
   overflow: hidden;
   transition: grid-template-rows 500ms ease;
+}
+
+.accordion-question:not(:last-of-type) {
+  border-bottom: 2px solid var(--clr-primary-200);
 }
 
 .accordion-question:has([aria-hidden="false"]) {
@@ -165,6 +174,7 @@ body {
   padding: 0;
   font-size: var(--fs-300);
   cursor: pointer;
+  margin-bottom: 1.5rem;
 }
 
 .accordion-plus-icon,
@@ -190,7 +200,7 @@ body {
   height: 100%;
 }
 .accordion-content > p {
-  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 hr {
