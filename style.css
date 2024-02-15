@@ -139,7 +139,6 @@ body {
   overflow: hidden;
 }
 
-.accordion-question:has([aria-expanded="false"]) .accordion-content,
 .accordion-question:has([aria-expanded="false"]) .accordion-minus-icon {
   display: none;
 }
@@ -172,6 +171,10 @@ body {
 
 .accordion-minus-icon {
   fill: var(--clr-primary-800);
+}
+
+.accordion-content {
+  height: 0;
 }
 
 hr {
