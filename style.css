@@ -212,7 +212,7 @@ hr {
   color: var(--clr-primary-800);
 }
 
-@media (min-width: 43em) {
+@media (min-width: 42.5em) {
   body {
     background-image: url("./assets/images/background-pattern-desktop.svg");
     font-size: var(--fs-300);
