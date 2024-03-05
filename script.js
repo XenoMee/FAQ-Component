@@ -1,4 +1,7 @@
 const accordion = document.querySelector(".accordion");
+const accordionIconContainer = document.querySelector(
+  ".accordion-icon-container"
+);
 
 accordion.addEventListener("click", function (e) {
   const activePanel = e.target.closest(".accordion-question");
@@ -9,12 +12,15 @@ accordion.addEventListener("click", function (e) {
 function toggleAccordion(panelToActivate) {
   const button = panelToActivate.querySelector(".accordion-trigger");
   const content = panelToActivate.querySelector(".accordion-content");
-  const plusIcon = button.querySelector(".accordion-plus-icon");
+  const verticalLine = button.querySelector(".vertical-line");
   const isExpanded = button.getAttribute("aria-expanded") === "true";
 
   button.setAttribute("aria-expanded", String(!isExpanded));
   content.setAttribute("aria-hidden", String(isExpanded));
 
-  plusIcon.style.display = isExpanded ? "block" : "none";
+  verticalLine.style.transform = isExpanded ? "scale(1)" : "scale(0)";
+  accordionIconContainer.style.backgroundColor = isExpanded
+    ? "var(--clr-accent-500)"
+    : "var(--clr-primary-800)";
   content.style.height = isExpanded ? "0%" : "100%";
 }
