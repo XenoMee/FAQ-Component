@@ -1,4 +1,4 @@
-const accordion = document.querySelector("ul");
+const accordion = document.querySelector(".accordion");
 
 accordion.addEventListener("click", function (e) {
   const activePanel = e.target.closest(".accordion-question");
@@ -22,23 +22,3 @@ function toggleAccordion(panelToActivate) {
     content.style.height = "0%";
   }
 }
-
-// for (let i = 0; i < accordionButtons.length; i++) {
-//   accordionButtons[i].addEventListener("click", function () {
-//     if (accordionButtons[i].getAttribute("aria-expanded") === "false") {
-//       // Accordion buttons
-//       accordionButtons[i].setAttribute("aria-expanded", true);
-//       accordionButtons[i].children[1].style.display = "none";
-//       // Accordion Content
-//       accordionContent[i].setAttribute("aria-hidden", false);
-//       accordionContent[i].style.height = "100%";
-//     } else {
-//       // Accordion Buttons
-//       accordionButtons[i].setAttribute("aria-expanded", false);
-//       accordionButtons[i].children[1].style.display = "block";
-//       // Accordion Content
-//       accordionContent[i].setAttribute("aria-hidden", true);
-//       accordionContent[i].style.height = "";
-//     }
-//   });
-// }
