@@ -150,6 +150,14 @@ body {
   grid-template-rows: min-content 1fr;
 }
 
+.accordion-question:has([aria-expanded="true"]) .vertical-line {
+  scale: 0;
+}
+
+.accordion-question:has([aria-expanded="true"]) .accordion-icon-container {
+  background-color: var(--clr-primary-800);
+}
+
 .question-title {
   transition: color 250ms ease-in-out;
 }
